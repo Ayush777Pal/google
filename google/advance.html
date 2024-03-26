@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <link href="advance.css" rel="stylesheet">
+    <body>
+     <header>
+        <div class="top">
+            <img src="image.png" alt="Google image">
+            <nav>
+                   <div class="top2">
+                    <ul class="container">
+                        <li>
+                       <a href="googleimage.html"> Images</a>
+                        </li>
+                        <li>
+                        <a href="index.html"> Search</a>
+                        </li>
+                     </ul>
+                   </div>
+                    
+            </nav>
+        </div>
+     </header>
+     <div class="heading">
+        <h3>Advanced Search</h3>
+     </div>
+   
+     <hr style="color: rgb(255, 255, 255); height: .3px;">
+       <div class="box4">
+        <div class="heading2">
+            <div>Find pages with....</div>
+            <div style="margin-left: 39rem; font-size: 16px;">To do this in the search box</div>
+        </div>
+      
+         <form action="https://google.com/search">
+           <div class="inputs"> 
+           <div class="inputs1" style="margin-right: 140px;"> all these words:</div><div><input type="text" class="inputm1" name="as_q"></div><div class="input2">Type the important words: tri-colour rat terrier</div>
+           </div>
+           <div class="inputs">
+          <div class="inputs1"style="margin-right: 78px">  this exact word or phrase:</div><input type="text" class="inputm1" name="as_epq"><div class="input2">Put exact words in quotes: "rat terrier"</div>
+           </div>
+           <div class="inputs">
+            <div class="inputs1" style="margin-right: 115px;"> any of these words:</div><input type="text" class="inputm1" name="as_oq"><div class="input2">Type OR between all the words you want: miniature OR standard</div>
+           </div>
+           <div class="inputs">
+            <div class="inputs1" style="margin-right: 105px;"> none of these words:</div><input type="text" class="inputm1" name="as_eq"><div class="input2">Put a minus sign just before words that you don't want:-rodent, -"Jack Russell"</div>
+           </div>
+           <div class="inputs">
+            <div class="inputs1" style="margin-right: 93px;"> numbers ranging from:</div><div> <input type="text" class="inputm3" style="margin-right: 14px;" name="as_nlo">to<input type="text" class="inputm3" style="margin-left: 14px;" name="as_nhi"></div><div class="input2">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div>
+           </div>
+           <div class="advance2">
+            <input type="submit" value="Advance Search" class="inputf">
+        </div>
+      </form>
+         <div class="heading3">
+            <div>Then narrow your results <br>by...</div>
+         </div>
+
+       <form >
+        
+            <div class="inputs">
+               <div class="input1" style="margin-right: 165px;">language:</div> <input class="inputm"  name="lang_ar" list="languages" placeholder="any language">
+             
+                <datalist id="languages"> <option value="en">English</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="zh-CN">Chinese (Simplified)</option>
+                    <option value="zh-TW">Chinese (Traditional)</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ar">Arabic</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="bn">Bengali</option>
+                    <option value="ru">Russian</option>
+                    <option value="ja">Japanese</option>
+                    <option value="de">German</option>
+                    <option value="fr">French</option>
+                    <option value="ko">Korean</option>
+                    <option value="tr">Turkish</option>
+                    <option value="it">Italian</option>
+                    <option value="vi">Vietnamese</option>
+                 </datalist>
+               <div class="input2">Find pages in the language that you select.</div>
+            </div>
+            <div class="inputs">
+                <div class="input1" style="margin-right: 187px;">region:</div><input name="countryAD" list="region" placeholder="region" class="inputm">
+                <datalist id="region">
+                    <option value="any">Any Region</option>
+                  <option value="af">Africa</option>
+                  <option value="as">Asia</option>
+                  <option value="eu">Europe</option>
+                  <option value="na">North America</option>
+                  <option value="sa">South America</option>
+                  <option value="oc">Oceania</option>
+                  </datalist>
+                 <div class="input2"> Find pages published in a particular region.</div>
+                
+            </div>
+            <div class="inputs">
+                <div class="input1" style="margin-right: 163px;">last update</div><input name="as_qdr" list="anytime" placeholder="anytime" class="inputm">
+                <datalist id="anytime"> 
+                  <option value="anytime"></option>
+                  <option value="last 24 hours">last 24 hours</option>
+                  <option value="upto a week ago">upto a week ago</option>
+                  <option value="upto a month ago">upto a week ago</option>
+                  <option value="upto a year ago">upto a week ago</option>
+                 </datalist>
+                 <div class="input2"> Find pages updated within the time that you specify.</div>
+                
+            </div>
+            <div class="inputs">
+                <div class="input1" style="margin-right: 135px;">site or domain:</div><input type="text" class="inputm" name="as_sitesearch"><div class="input2">Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</div>
+            </div>
+            <div class="inputs">
+                <div class="input1" style="margin-right: 125px;">terms appearing</div>
+                <input name="as_occt" list="terms" placeholder="anywhere in the page" class="inputm">
+                <datalist id="terms"> 
+                    <option value="anywhere in the page">anywhere in the page</option>
+                  <option value="in the title of the page">in the title of the page</option>
+                  <option value="in the text of the page">in the text of the page</option>
+                  <option value="in the URL of the page">in the URL of the page</option>
+                  <option value="in links of the page">in links of the page</option>
+                  </datalist>
+                  <div class="input2"> Search for terms in the whole page, page title or web address, or links to the page you're looking for.</div>
+                 
+            </div>
+            <div class="inputs">
+                <div class="input1" style="margin-right: 175px;"> file type</div>
+               <input name="as_filetype" list="format" placeholder="any format" class="inputm">
+                <datalist id="format"> 
+                    <option value="any">Any Format</option>
+                    <option value="web">Web pages</option>
+                    <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                    <option value="ps">Adobe PostScript (.ps)</option>
+                    <option value="xls">Microsoft Excel (.xls, .xlsx)</option>
+                    <option value="ppt">Microsoft PowerPoint (.ppt, .pptx)</option>
+                    <option value="doc">Microsoft Word (.doc, .docx)</option>
+                    <option value="odp">OpenOffice Presentation (.odp).</option>
+                    <option value="ods">OpenOffice Spreadsheet (.ods)</option>
+                    <option value="odt">OpenOffice Text (.odt)</option>
+                    <option value="rtf">Rich Text Format (.rtf)</option>
+                    <option value="swf">Shockwave Flash (.swf)</option>
+                    <option value="txt">Text (.txt)</option>
+                    <option value="xps">XML Paper Specification (.xps)</option>
+                  </datalist>
+                  <div class="input2">Find pages in the format that you prefer.</div>
+                  
+            </div><br>
+            <div class="inputs">
+                    <a href="https://support.google.com/websearch/answer/29508?hl=en&visit_id=638460704317432604-1826342734&p=ws_images_usagerights&rd=1"><div class="input1" style="margin-right: 150px;">useage right</div></a> 
+                <input name="Afc&q" list="right" placeholder="not filtered by licence" class="inputm">
+                <datalist id="right"> 
+                    <option value="not filtered by licence">not filtered by licence</option>.
+                    <option value="free to use or share">free to use or share</option>
+                    <option value="free to use or share,even comericially">free to use or share,even comericially</option>
+                    <option value="free to use or share, or modify">free to use or share, or modify</option>
+                    <option value="free to use or share,or modify, even commercially">free to use or share,or modify, even commercially</option> 
+                </datalist>
+                <div class="input2">
+                    Find pages that you are free to use yourself.
+                </div>
+            </div>
+            <div class="advance2">
+                <input type="submit" value="Advance Search" class="inputf">
+            </div>
+         </form>
+        
+      
+         <hr>
+      </div>
+     <div class="box5">
+        <div class="heading2">
+        <div>You can also...</div>
+        </div>
+        <div class="links">
+            <a href="https://support.google.com/websearch?p=adv_pages_similar&hl=en">Find pages that are similar to URL</a><br>
+            <a href="https://support.google.com/websearch?p=adv_pages_visited&hl=en">Search pages that you've visited</a><br>
+            <a href="https://support.google.com/websearch?p=adv_operators&hl=en">USe operators in the search box</a><br>
+            <a href="https://www.google.com/preferences?hl=en-IN">Customise your search setting</a>
+        </div>
+      
+    </div>
+     <div class="footer">
+        <div>India</div>
+     </div>
+     <div class="foot">
+        <div class="footer2">
+            <div>Help</div>
+            <div>Privacy</div>
+            <div>Terms</div>
+         </div>
+     </div>
+   
+    </body>
+</html>
